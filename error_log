@@ -1,0 +1,6 @@
+[23-Dec-2019 13:38:47 Asia/Karachi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/primet25/pfs_edu_pk/web_portal/back/storage/framework/views/c1d94db1879dc6fa4cdff770132f4d05d60c55f7.php): failed to open stream: No such file or directory in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/schoolso/...', 122, Array)
+#1 /home/schoolso/pfs.edu.pk/web_portal/back/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/primet25/...', '<?php $__env->s...', 0)
+#2 /home/schoolso/pfs.edu.pk/web_portal/back/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/home/primet25/...', '<?php $__env->s...')
+#3 /home/schoolso/pfs.edu.pk/web_portal/back/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompi in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122

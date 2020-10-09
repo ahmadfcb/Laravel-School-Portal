@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMI;;oCAAQ;EACJ,OAAO,EAAE,aAAa",
+"sources": ["../scss/custom_styles.scss"],
+"names": [],
+"file": "custom_styles.css"
+}

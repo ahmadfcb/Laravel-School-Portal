@@ -1,0 +1,125 @@
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting:after {
+  content: '' !important;
+}
+
+.widget-body.no-padding .form-actions {
+  margin: 0;
+}
+.widget-body.no-padding .form-actions.with-top-margin {
+  margin-top: 25px;
+}
+
+.blank_button_container {
+  padding: 15px;
+}
+
+.show_hide_on_click {
+  cursor: pointer;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.btn-margin-bottom {
+  margin-bottom: 10px;
+}
+.btn-margin-bottom-sm {
+  margin-bottom: 6.66667px;
+}
+.btn-margin-bottom-xs {
+  margin-bottom: 5px;
+}
+
+#site_blank_pages {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+}
+
+.vertical_align_middle {
+  vertical-align: middle !important;
+}
+
+@media print {
+  .no_url_render[href]::after {
+    content: '' !important;
+  }
+
+  table th a[href]::after, table td a[href]::after {
+    content: '' !important;
+  }
+}
+.student_card_print {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+}
+.student_card_print .student_card_container {
+  border: 1px solid #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+  width: 450px;
+}
+@media print {
+  .student_card_print .student_card_container {
+    page-break-inside: avoid;
+  }
+}
+.student_card_print .student_card_inner_container {
+  padding: 15px;
+}
+.student_card_print .student_card_heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+}
+.student_card_print .student_card_row {
+  display: inline-block;
+  width: 100%;
+}
+.student_card_print .student_card_left {
+  float: left;
+  width: 25%;
+  padding-right: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+.student_card_print .student_card_left .student_card_img {
+  width: 100%;
+  max-height: 120px;
+}
+.student_card_print .student_card_right {
+  float: right;
+  padding-left: 10px;
+  width: 75%;
+}
+.student_card_print .student_card_footer {
+  display: inline-block;
+  width: 100%;
+}
+.student_card_print .student_card_footer_left {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+.student_card_print .student_card_footer_right {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.student_fee_transaction_print .student_fee_transaction_print_single {
+  padding: 10px;
+  width: 400px;
+}
+.student_fee_transaction_print .student_fee_transaction_print_single_heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=custom_styles.css.map */

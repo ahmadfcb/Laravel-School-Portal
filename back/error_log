@@ -1,0 +1,8 @@
+[31-Mar-2020 19:00:03 UTC] PHP Notice:  Undefined index: argv in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 53
+[31-Mar-2020 19:00:03 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 57
+[30-Apr-2020 19:00:09 UTC] PHP Notice:  Undefined index: argv in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 53
+[30-Apr-2020 19:00:10 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 57
+[31-May-2020 19:00:02 UTC] PHP Notice:  Undefined index: argv in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 53
+[31-May-2020 19:00:02 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 57
+[30-Jun-2020 19:00:06 UTC] PHP Notice:  Undefined index: argv in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 53
+[30-Jun-2020 19:00:06 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/schoolso/pfs.edu.pk/web_portal/back/vendor/symfony/console/Input/ArgvInput.php on line 57
